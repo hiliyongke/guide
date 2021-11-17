@@ -1,14 +1,14 @@
 /*
  * @Date: 2021-11-17 10:00:08
  * @LastEditors: Aiva
- * @LastEditTime: 2021-11-17 12:43:44
+ * @LastEditTime: 2021-11-17 14:02:06
  * @FilePath: \guide_front_web\docs\.vuepress\config.js
  */
 module.exports = {
     lang: 'zh-CN',
     title: '前端开发规范',
     description: '前端工程师开发规范',
-
+    base:"/standard/",
     themeConfig: {
         logo: null,
         navbar: [
