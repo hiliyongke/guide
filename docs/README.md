@@ -5,7 +5,7 @@ heroText: 前端代码规范
 tagline: Front-End Coding Guidelines
 actions:
     - text: 快速开始 →
-      link: /guide
+      link: /norm
 features:
 - title: HTML规范
   details: 基于凹凸实验室、W3C、苹果开发者等官方文档，并结合团队日常业务需求以及团队在日常开发过程中总结提炼出的经验而约定。

@@ -1,20 +1,20 @@
 /*
  * @Date: 2021-11-17 10:00:08
  * @LastEditors: Aiva
- * @LastEditTime: 2021-11-17 14:02:06
+ * @LastEditTime: 2021-11-17 14:23:57
  * @FilePath: \guide_front_web\docs\.vuepress\config.js
  */
 module.exports = {
     lang: 'zh-CN',
     title: '前端开发规范',
     description: '前端工程师开发规范',
-    base:"/standard/",
+    base:"/guide/",
     themeConfig: {
         logo: null,
         navbar: [
             {
                 text: '文档',
-                link: '/guide/',
+                link: '/norm/',
             },
             {
                 text: '更新日志',
@@ -25,26 +25,26 @@ module.exports = {
         sidebar: [
             {
               text: '概述',
-              link: '/guide/',
+              link: '/norm/',
               children:[
                 {
                     text: 'HTML规范',
                     children:[
                         {
                             text: '代码规范',
-                            link: '/guide/html/code.md',
+                            link: '/norm/html/code.md',
                         },
                         {
                             text: '注释规范',
-                            link: '/guide/html/note.md',
+                            link: '/norm/html/note.md',
                         },
                         {
                             text: '文件模板',
-                            link: '/guide/html/template.md',
+                            link: '/norm/html/template.md',
                         },
                         {
                             text: 'WebApp Meta',
-                            link: '/guide/html/webapp.md',
+                            link: '/norm/html/webapp.md',
                         },
                     ],
                 },
@@ -53,27 +53,27 @@ module.exports = {
                     children:[
                         {
                             text: '代码规范',
-                            link: '/guide/css/code.md',
+                            link: '/norm/css/code.md',
                         },
                         {
                             text: '注释规范',
-                            link: '/guide/css/note.md',
+                            link: '/norm/css/note.md',
                         },
                         {
                             text: 'SASS规范',
-                            link: '/guide/css/sass.md',
+                            link: '/norm/css/sass.md',
                         },
                         {
                             text: '重置样式',
-                            link: '/guide/css/reset.md',
+                            link: '/norm/css/reset.md',
                         },
                         {
                             text: '媒体查询',
-                            link: '/guide/css/query.md',
+                            link: '/norm/css/query.md',
                         },
                         {
                             text: '移动端常用私有属性',
-                            link: '/guide/css/webkit.md',
+                            link: '/norm/css/webkit.md',
                         },
                     ]
                 },
@@ -82,19 +82,19 @@ module.exports = {
                     children:[
                         {
                             text: '图片格式',
-                            link: '/guide/image/format.md',
+                            link: '/norm/image/format.md',
                         },
                         {
                             text: '图片大小',
-                            link: '/guide/image/size.md',
+                            link: '/norm/image/size.md',
                         },
                         {
                             text: '图片质量',
-                            link: '/guide/image/quality.md',
+                            link: '/norm/image/quality.md',
                         },
                         {
                             text: '图片引入',
-                            link: '/guide/image/import.md',
+                            link: '/norm/image/import.md',
                         },
                     ]
                 },
@@ -103,19 +103,19 @@ module.exports = {
                     children:[
                         {
                             text: '目录命名',
-                            link: '/guide/name/dir.md',
+                            link: '/norm/name/dir.md',
                         },
                         {
                             text: '图片命名',
-                            link: '/guide/name/image.md',
+                            link: '/norm/name/image.md',
                         },
                         {
                             text: 'HTML/CSS',
-                            link: '/guide/name/htmlcss.md',
+                            link: '/norm/name/htmlcss.md',
                         },
                         {
                             text: 'ClassName',
-                            link: '/guide/name/classname.md',
+                            link: '/norm/name/classname.md',
                         },
                     ]
                 },
@@ -124,15 +124,15 @@ module.exports = {
                     children:[
                         {
                             text: '语言规范',
-                            link: '/guide/js/language.md',
+                            link: '/norm/js/language.md',
                         },
                         {
                             text: '代码规范',
-                            link: '/guide/js/code.md',
+                            link: '/norm/js/code.md',
                         },
                         {
                             text: 'React&JSX书写规范',
-                            link: '/guide/js/react.md',
+                            link: '/norm/js/react.md',
                         },
                     ]
                 },
