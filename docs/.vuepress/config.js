@@ -1,7 +1,7 @@
 /*
  * @Date: 2021-11-17 10:00:08
  * @LastEditors: Aiva
- * @LastEditTime: 2021-11-17 14:23:57
+ * @LastEditTime: 2021-11-17 14:34:04
  * @FilePath: \guide_front_web\docs\.vuepress\config.js
  */
 module.exports = {
@@ -11,6 +11,8 @@ module.exports = {
     base:"/guide/",
     themeConfig: {
         logo: null,
+        lastUpdatedText:"最近更新",
+        contributors:false,
         navbar: [
             {
                 text: '文档',
